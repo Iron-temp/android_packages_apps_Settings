@@ -322,4 +322,8 @@ public class Settings extends SettingsActivity {
      * Activity for AppDashboard.
      */
     public static class AppDashboardActivity extends SettingsActivity {}
+
+    // Iron Additions.
+    public static class IronSettingsActivity extends SettingsActivity {}
+
 }
