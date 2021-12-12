@@ -47,9 +47,8 @@
     <Preference
         android:key="custom_firmware_version"
         android:title="@string/custom_firmware_version"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.CustomFirmwareVersionPreferenceController"/>
+        android:summary="@string/iron_version"
+        settings:enableCopying="true" />
 
     <!-- Mainline module version
     <Preference
