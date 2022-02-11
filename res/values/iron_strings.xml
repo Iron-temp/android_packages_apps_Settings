@@ -113,7 +113,7 @@
     <string name="pitch_colors">Pitch black theme</string>
     <string name="pitch_colors_summary">Pitch black theme for Settings, SystemUI, etc</string>
 
-	<!-- App lock -->
+    <!-- App lock -->
     <string name="app_lock_title">App lock</string>
     <string name="app_lock_summary_singular">1 application is protected</string>
     <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g> applications are protected</string>
@@ -130,8 +130,16 @@
     <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
     <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
 
-	<!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Locate the fingerprint sensor on the back of your phone.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">Locate the fingerprint sensor on the side of your phone.</string>
+
+    <!-- Face Unlock -->
+    <string name="security_settings_face_settings_footer_custom">Face unlock lets you unlock your device by looking at it. Keep in mind:\n\n● Your device may unlock any time you look at it.\n● Your device can be unlocked by someone else if they hold it in front of your face while your eyes are open.\n● Your device may also be unlocked by someone who looks a lot like you, such as a child or identical sibling.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_custom">Data recorded by face unlock will be permanently and securely deleted. After removal, you will need your PIN, pattern, or password to unlock your phone.</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
+    <string name="face_redo_confirm_btn">Redo</string>
+    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
 </resources>
